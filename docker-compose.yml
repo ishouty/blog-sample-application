@@ -1,0 +1,12 @@
+version: "3.3"
+services:
+  blog:
+    image: blog
+    environment:
+      - BASE_API_URL=http://api:3333/api
+    ports:
+      - "3000:3000"
+  api:
+    image: api-service
+    ports:
+      - "3333:3333"
