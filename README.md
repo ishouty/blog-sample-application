@@ -4,21 +4,22 @@
 
 ## Overview
 
-The blog application consists of two apps, API express JS and Frontend Next JS to ulitlize the static generation renderer from Next Js.
+The blog application consists of two apps, API express JS and Frontend Next JS to ulitlize the static generation renderer from Next JS.
 
 ### Front End 
-All of the files are built on build time in comparision to server side which happens on run time for the features required for the task.
+All of the files are built on build time in comparision to server side which happens on run time for the features required.
 
 SSG:  Automatically generated as static HTML + JSON (uses getStaticProps)
 
 ### Advantages 
 
-This means more performance on not needed the ssr to render page, caching and SEO and to captilize of Next Js framework of prefetching files and content.
+This means more performance on not need server side  to render page, caching and SEO and to captilize of Next Js framework of prefetching files and content.
 
 ### Draw Backs 
-The draw backs are that there is a build depencendy on the application where the front end service cannot deploy on certain pages unless it can request data from the Api to generate the HTML + JSON files.
+The draw backs are that there is a build depencendy on the application where the front end service cannot deploy on certain pages unless it can request data from the API to generate the HTML + JSON files.
 
-There is probably a solution of depenency management when deploying through nx
+
+There is probably a solution of dependency build management when deploying through nx
 
 ## Frameworks and Tools 
 
@@ -33,7 +34,7 @@ There is probably a solution of depenency management when deploying through nx
 ### Api Service 
 
 - [Node](https://www.typescriptlang.org/) - Javascript server side 
-- [ExpressJs](https://expressjs.com/) - Api 
+- [ExpressJs](https://expressjs.com/) - API 
 framework 
 
 #### Languages
@@ -51,14 +52,15 @@ framework
 
 ### Front End
 
-- [React](https://reactjs.org/) - Ui components
-- [NextJS](https://nextjs.org/) - for Static Server Side Generation framework for SSR and static generation
+- [React](https://reactjs.org/) - UI components
+- [NextJS](https://nextjs.org/) - For Static Server Side Generation framework for SSR and static generation
 
 - [Styled-components](https://styled-components.com/docs/api) - creating components with styles 
 
 ### Note: Naming Conventions on React Components 
 - All of the React components are camel case, this is something developers can agree on the conventions etc.. 
 
+- TODO: Improved some types  
 
 #### Language 
 - [Typescript](https://www.typescriptlang.org/) 
@@ -93,7 +95,7 @@ npm run test blog
 
 ## Running Cypress E2E Tests
 
-Note: running this locally you need api-service as static files are built on build time.
+Note: running this locally you need api-service to be running as static files are built on build time.
 
 ```
 npm run e2e
@@ -144,5 +146,8 @@ docker-compose up api
 docker-compose up blog
 ```
 
-visit http://localhost:3000
+Open your browser and type 
 
+```
+http://localhost:3000
+```
