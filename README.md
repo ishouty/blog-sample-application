@@ -81,6 +81,9 @@ framework
 ## Running Applications in Development 
 
 ```
+npm install
+```
+```
 npm run start api-service
 npm run start blog
 ```
