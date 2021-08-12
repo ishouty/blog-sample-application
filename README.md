@@ -53,7 +53,7 @@ framework
 ### Front End
 
 - [React](https://reactjs.org/) - UI components
-- [NextJS](https://nextjs.org/) - For Static Server Side Generation framework for SSR and static generation
+- [NextJS](https://nextjs.org/) - For static server side generation framework for SSR and static generation
 
 - [Styled-components](https://styled-components.com/docs/api) - creating components with styles 
 
@@ -122,7 +122,6 @@ npm run lint blog
 
 Building containers will also leverage of making sure tests and linting issues are passed before deployment. 
 
-Note: Will only run lint and unit tests
 ## Required Before Running Commands 
 
 * Docker 
@@ -146,7 +145,8 @@ All Applications
 ```
 docker-compose up
 ```
-Application
+Or individually
+
 ```
 docker-compose up api
 docker-compose up blog
