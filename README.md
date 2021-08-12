@@ -4,19 +4,19 @@
 
 ## Overview
 
-The blog application consists of two apps, API express JS and Frontend Next JS to ulitlize the static generation renderer from Next JS.
+The blog application consists of two apps, API express JS and Frontend Next JS to utilize the static generation renderer from Next JS.
 
 ### Front End 
-All of the files required for static generation are built on build time in comparision to server side which happens on run time for the features required.
+All of the files needed are built on build time in comparison to server side which happens on run time for the features required.
 
 SSG:  Automatically generated as static HTML + JSON (uses getStaticProps)
 
 ### Advantages 
 
-This means more performance on not need server side  to render page, caching and SEO and to captilize of Next Js framework of prefetching files and content.
+This means more performance on not need server side  to render page, caching and SEO and to capitalize of Next Js framework of pre-fetching files and content.
 
 ### Draw Backs 
-The draw backs are that there is a build depencendy on the application where the front end service cannot deploy on certain pages unless it can request data from the API to generate the HTML + JSON files.
+The draw backs are that there is a build dependency on the application where the front end service cannot deploy on certain pages unless it can request data from the API to generate the HTML + JSON files.
 
 
 There is probably a solution of dependency build management when deploying through nx
@@ -25,10 +25,10 @@ There is probably a solution of dependency build management when deploying throu
 
 - [NX Workspace](https://nx.dev) for Mono Repo Management 
 
-  * Generate and build skeletons of applications and frameworks required e.g Nextjs, express  
+  * Generate and build skeletons of applications and frameworks required e.g NextJS, express  
   * Build and deploy commands 
   * Configuration setup for apps 
-  * Building shared libaries which can be used for both applications
+  * Building shared libraries which can be used for both applications
   * Linting & Tests will be automatically run as part of the build process but can also be run independently.
 
 ### Api Service 
