@@ -7,7 +7,7 @@
 The blog application consists of two apps, API express JS and Frontend Next JS to ulitlize the static generation renderer from Next JS.
 
 ### Front End 
-All of the files are built on build time in comparision to server side which happens on run time for the features required.
+All of the files required for static generation are built on build time in comparision to server side which happens on run time for the features required.
 
 SSG:  Automatically generated as static HTML + JSON (uses getStaticProps)
 
