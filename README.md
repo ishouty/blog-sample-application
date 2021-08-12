@@ -114,7 +114,8 @@ npm run test blog
 Note: Running integration tests for api service would need the service to be running
 
 ```
-npm run lint
+npm run lint api-service
+npm run lint blog
 ```
 
 ## How to Run Application in Docker Container  
