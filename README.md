@@ -140,6 +140,8 @@ npm run deploy-docker-images
 
 Deploy / Run:
 
+Note: Please make sure you have existing services closed or no ports being on used on the same port
+
 All Applications
 ```
 docker-compose up
